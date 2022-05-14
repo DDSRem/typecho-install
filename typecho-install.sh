@@ -11,4 +11,7 @@ wget https://github.com/typecho/typecho/releases/download/v1.2.0/typecho.zip -P 
 unzip /root/data/docker_data/typecho/typecho/typecho.zip -d /root/data/docker_data/typecho/typecho
 rm -rf /root/data/docker_data/typecho/typecho/typecho.zip
 wget https://raw.githubusercontent.com/DDSRem/typecho-install/main/docker-compose.yml -P /root/data/docker_data/typecho
+
+echo "cd /root/data/docker_data/tyepcho"
+echo "docker-compose up -d"
 rm $0
