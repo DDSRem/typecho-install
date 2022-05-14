@@ -9,3 +9,4 @@ wget https://raw.githubusercontent.com/DDSRem/typecho-install/main/default.conf 
 mkdir -p /root/data/docker_data/typecho/typecho
 wget https://github.com/typecho/typecho/releases/download/v1.2.0/typecho.zip -P /root/data/docker_data/typecho/typecho
 wget https://raw.githubusercontent.com/DDSRem/typecho-install/main/docker-compose.yml -P /root/data/docker_data/tyepcho
+rm $0
